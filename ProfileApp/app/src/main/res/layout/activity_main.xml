@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profileimage"
+            android:contentDescription="Foto de perfil"/>
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do usuário"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição do usuãrio."
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:id="@+id/currentJobText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desenvolvedor Full-Stack"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/experienceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experiências Anteriores"
+                android:paddingBottom="8dp"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+</LinearLayout>
